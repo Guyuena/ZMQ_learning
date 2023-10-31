@@ -25,6 +25,7 @@ int main() {
         std::string message = "This is a news message.";
 
         zmq_msg_t topic_msg;
+        // 初始化数据
         zmq_msg_init_data(&topic_msg, (void*)topic.c_str(), topic.length(), NULL, NULL);
 
         zmq_msg_t message_msg;
