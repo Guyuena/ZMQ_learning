@@ -21,6 +21,7 @@ int main() {
         sprintf(task, "Task %d", taskNumber);
 
         zmq_msg_t msg;
+        // 初始化数据结构的大小
         zmq_msg_init_size(&msg, strlen(task));
         memcpy(zmq_msg_data(&msg), task, strlen(task));
 

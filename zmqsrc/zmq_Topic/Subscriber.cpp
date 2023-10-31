@@ -40,6 +40,7 @@ ZeroMQ（ZMQ）中的不同通信模式在使用时可能需要不同的套接�
         zmq_msg_t topic_msg;
         zmq_msg_t message_msg;
 
+        // 创建一个空的 zmq_msg_t 结构
         zmq_msg_init(&topic_msg);
         zmq_msg_init(&message_msg);
 
