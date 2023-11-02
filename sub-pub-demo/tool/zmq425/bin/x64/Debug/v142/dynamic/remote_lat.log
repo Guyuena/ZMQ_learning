@@ -1,0 +1,6 @@
+﻿  ConfigurationType : Application
+  Configuration     : DebugDEXE
+  PlatformToolset   : v142
+  TargetPath        : K:\mylibrary\c++Learn_Notes\ZMQ\libzmq-4.2.5\libzmq-4.2.5\builds\msvc\vs2017\remote_lat\..\..\..\..\bin\x64\Debug\v142\dynamic\remote_lat.exe
+  Linkage-libzmq    : dynamic
+LINK : fatal error LNK1104: 无法打开文件“libzmq.lib”

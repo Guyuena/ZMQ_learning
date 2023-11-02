@@ -226,5 +226,9 @@ socket API是一层抽象的网络编程接口，适用于各种底层网络协�
 
 
 
+# ZMQ接口
 
+
+
+[ZeroMQ(ZMQ)函数接口英汉直译 - fengbohello - 博客园 (cnblogs.com)](https://www.cnblogs.com/fengbohello/p/4230135.html)
 

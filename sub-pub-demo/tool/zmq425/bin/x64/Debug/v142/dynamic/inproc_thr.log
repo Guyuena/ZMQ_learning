@@ -1,0 +1,16 @@
+﻿  ConfigurationType : Application
+  Configuration     : DebugDEXE
+  PlatformToolset   : v142
+  TargetPath        : K:\mylibrary\c++Learn_Notes\ZMQ\libzmq-4.2.5\libzmq-4.2.5\builds\msvc\vs2017\inproc_thr\..\..\..\..\bin\x64\Debug\v142\dynamic\inproc_thr.exe
+  Linkage-libzmq    : dynamic
+  ConfigurationType : DynamicLibrary
+  Configuration     : DebugDLL
+  PlatformToolset   : v142
+  TargetPath        : K:\mylibrary\c++Learn_Notes\ZMQ\libzmq-4.2.5\libzmq-4.2.5\builds\msvc\vs2017\libzmq\..\..\..\..\bin\x64\Debug\v142\dynamic\libzmq.dll
+  Option-tweet      : true
+  Option-sodium     : 
+  Option-openpgm    : 
+  Option-gssapi     : 
+  Option-draftapi   : 
+  Option-usepoll    : 
+LINK : fatal error LNK1104: 无法打开文件“libzmq.lib”
